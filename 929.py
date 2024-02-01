@@ -5,7 +5,7 @@ import rumps
 
 class RadioApp(rumps.App):
     def __init__(self):
-        super(RadioApp, self).__init__("")  # Set an empty string to remove the default "Radio App" label
+        super(RadioApp, self).__init__("")
         self.title = "Fetching..."
         self.update_menu()
 
